@@ -1,0 +1,21 @@
+CREATE TABLE public.member
+(
+    id BIGSERIAL PRIMARY KEY,
+    name character varying(50) NOT NULL,
+    station character varying(50),
+    abilities character varying(50),
+    bounty bigint,
+    age smallint NOT NULL,
+    weapon character varying(50),
+    crew_id bigint,
+    FOREIGN KEY (crew_id)
+            REFERENCES public.crew (id)
+            ON UPDATE NO ACTION
+            ON DELETE NO ACTION
+)
+WITH (
+    OIDS = FALSE
+);
+
+ALTER TABLE public.member
+    OWNER to one_piece;

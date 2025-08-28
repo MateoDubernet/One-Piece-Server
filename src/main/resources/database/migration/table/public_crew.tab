@@ -1,0 +1,14 @@
+CREATE TABLE public.crew
+(
+    id BIGSERIAL PRIMARY KEY,
+    name character varying(50) NOT NULL,
+    ship_name character varying(50),
+    member_max smallint NOT NULL default 1,
+    number_of_member smallint NOT NULL default 0
+)
+WITH (
+    OIDS = FALSE
+);
+
+ALTER TABLE public.crew
+    OWNER to one_piece;
