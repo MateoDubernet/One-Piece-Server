@@ -1,4 +1,4 @@
-﻿# One-Piece-Server
+﻿# One Piece Server
  - Ouvrir le projet avec IntelIj
  
  - Configurer le fichier application.properties avec les informations nécessaire pour la connexion avec la base de données
@@ -11,5 +11,6 @@
 ## Projet lié
 Cette application est utilisé conjointement avec le projet client disponible ici :
 https://github.com/MateoDubernet/One-Piece-Client
+
 
 
