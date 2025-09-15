@@ -6,4 +6,10 @@
 
  - Lancer le projet
 
+ ---
+
+## Projet lié
+Cette application est utilisé conjointement avec le projet client disponible ici :
+https://github.com/MateoDubernet/One-Piece-Client
+
 
