@@ -16,6 +16,7 @@ https://github.com/MateoDubernet/One-Piece-Client
 
 - **Java 11** (Amazon Corretto 11 recommandé)
 - **IntelliJ IDEA** (ou tout autre IDE compatible Spring Boot)
+- **PostgreSQL** pour la base de données
 
 ---
 
@@ -49,5 +50,6 @@ Appuyer sur le bouton play de IntellIj
 
 ### 4. Lancer l’application côté client
 Lien client: https://github.com/MateoDubernet/One-Piece-Client
+
 
 
