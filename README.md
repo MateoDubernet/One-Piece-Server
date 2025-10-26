@@ -1,6 +1,8 @@
 ﻿# One Piece Server
 
-## Projet lié
+## Contexte
+
+### Projet lié
 Cette application est utilisé conjointement avec le projet client disponible ici :
 https://github.com/MateoDubernet/One-Piece-Client
 
@@ -22,11 +24,11 @@ https://github.com/MateoDubernet/One-Piece-Client
 Ouvrir le projet dans IntelliJ
 
 ### 2. Configuration du projet
- 1. **Configurer Java 11 (Corretto) dans IntelliJ**
-     - Aller dans **File → Project Structure → Project**
-     - Choisir **Project SDK → Corretto 11**
-     - S'assurer que le **Project language level** est au moins `11`.
- 
+1. **Configurer Java 11 (Corretto) dans IntelliJ**
+    - Aller dans **File → Project Structure → Project**
+    - Choisir **Project SDK → Corretto 11**
+    - S'assurer que le **Project language level** est au moins `11`.
+
  2. **Configurer la connexion à PostgreSQL**
      - Dans `src/main/resources/application.properties`:
  ```properties
@@ -37,8 +39,13 @@ Ouvrir le projet dans IntelliJ
  spring.jpa.show-sql=true
  ```
 
-### 3. Lancer l’application côté serveur
+ 3. **Ajouter une configuration pour le projet**
+    - Aller dans **Current File → Edit configurations...**
+    - Ajouter une configuration **Application**
+    - Dans **Build & run -> Main class** sélectionner : **com.example.demo.DemoApplication**
 
+### 3. Lancer l’application côté serveur
+Appuyer sur le bouton play de IntellIj
 
 ### 4. Lancer l’application côté client
 Lien client: https://github.com/MateoDubernet/One-Piece-Client
