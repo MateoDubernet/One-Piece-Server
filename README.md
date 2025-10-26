@@ -3,7 +3,7 @@
 ## Contexte
 
 ### Description
-Il s'agit d'un projet réaliser durant mon alternance dans le but de me former aux frameworks Angular et Spring.
+Il s'agit d'un projet réaliser durant mon alternance dans le but de me former aux frameworks Angular et Spring.\
 Ceci est la partie serveur du projet qui utilise le framework Spring et le langage Java, il gére la récupération et sauvegarde des données en base et communique avec le client via une API REST.
 
 ### Projet lié
@@ -49,4 +49,5 @@ Appuyer sur le bouton play de IntellIj
 
 ### 4. Lancer l’application côté client
 Lien client: https://github.com/MateoDubernet/One-Piece-Client
+
 
