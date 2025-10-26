@@ -29,20 +29,16 @@ Ouvrir le projet dans IntelliJ
     - Choisir **Project SDK → Corretto 11**
     - S'assurer que le **Project language level** est au moins `11`.
 
- 2. **Configurer la connexion à PostgreSQL**
-     - Dans `src/main/resources/application.properties`:
- ```properties
- spring.datasource.url=jdbc:postgresql://localhost:5432/tondb
- spring.datasource.username=tonuser
- spring.datasource.password=tonpassword
- spring.jpa.hibernate.ddl-auto=update
- spring.jpa.show-sql=true
- ```
 
- 3. **Ajouter une configuration pour le projet**
+2. **Ajouter une configuration pour le projet**
     - Aller dans **Current File → Edit configurations...**
     - Ajouter une configuration **Application**
     - Dans **Build & run -> Main class** sélectionner : **com.example.demo.DemoApplication**
+
+
+3. **Configurer la connexion à la base de données**
+   - Dans `src/main/resources/application.properties` remplacer les valeurs de connexions par celles adapter
+   - Créer la base de données
 
 ### 3. Lancer l’application côté serveur
 Appuyer sur le bouton play de IntellIj
