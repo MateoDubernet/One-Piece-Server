@@ -23,8 +23,7 @@ https://github.com/MateoDubernet/One-Piece-Client
 ## Installation & Lancement
 ### 1. Cloner le projet
 ```bash
-    git clone <url-du-repo>
-    cd <nom-du-dossier>
+    git clone https://github.com/MateoDubernet/One-Piece-Server.git
 ```
 Ouvrir le projet dans IntelliJ
 
@@ -50,6 +49,7 @@ Appuyer sur le bouton play de IntellIj
 
 ### 4. Lancer l’application côté client
 Lien client: https://github.com/MateoDubernet/One-Piece-Client
+
 
 
 
