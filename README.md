@@ -41,7 +41,7 @@ Ouvrir le projet dans IntelliJ
 
 
 3. **Configurer la connexion à la base de données**
-   - Dans `src/main/resources/application.properties` remplacer les valeurs de connexions par celles adapter
+   - Dans `src/main/resources/application.properties` remplacer les valeurs de connexions par celles adaptés
    - Créer la base de données **one_piece** avec postgreSQL
 
 ### 3. Lancer l’application côté serveur
@@ -49,6 +49,7 @@ Appuyer sur le bouton play de IntellIj
 
 ### 4. Lancer l’application côté client
 Lien client: https://github.com/MateoDubernet/One-Piece-Client
+
 
 
 
