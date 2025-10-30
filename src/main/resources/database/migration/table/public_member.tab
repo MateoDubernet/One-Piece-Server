@@ -16,6 +16,3 @@ CREATE TABLE public.member
 WITH (
     OIDS = FALSE
 );
-
-ALTER TABLE public.member
-    OWNER to one_piece;

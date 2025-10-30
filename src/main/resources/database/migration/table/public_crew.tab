@@ -9,6 +9,3 @@ CREATE TABLE public.crew
 WITH (
     OIDS = FALSE
 );
-
-ALTER TABLE public.crew
-    OWNER to one_piece;
