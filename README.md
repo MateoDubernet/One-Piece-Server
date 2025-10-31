@@ -25,9 +25,11 @@ https://github.com/MateoDubernet/One-Piece-Client
 ```bash
     git clone https://github.com/MateoDubernet/One-Piece-Server.git
 ```
-Ouvrir le projet dans IntelliJ
 
-### 2. Configuration du projet
+### 2. Aller sur le projet
+- Ouvrir le projet dans IntelliJ
+
+### 3. Configuration du projet
 1. **Configurer Java 11 (Corretto) dans IntelliJ**
     - Aller dans **File → Project Structure → Project**
     - Choisir **Project SDK → Corretto 11**
@@ -44,14 +46,8 @@ Ouvrir le projet dans IntelliJ
    - Dans `src/main/resources/application.properties` remplacer les valeurs de connexions par celles adaptés
    - Créer la base de données **one_piece** avec postgreSQL
 
-### 3. Lancer l’application côté serveur
+### 4. Lancer l’application côté serveur
 Appuyer sur le bouton play de IntellIj
 
-### 4. Lancer l’application côté client
+### 5. Lancer l’application côté client
 Lien client: https://github.com/MateoDubernet/One-Piece-Client
-
-
-
-
-
-
